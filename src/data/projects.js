@@ -7,7 +7,7 @@ category:"Motion Graphic",
 
 thumbnail:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdwBb-Qgz0FzZDEd05dsdopgfG14oqYZgsQnGIAoIYtasXzt6uKaeIH37Gy0GjO0DMyxsaeAnvA-uET5Z0bKbgKmU5MvzpvyCkhQ9x-6IeHO0nzc9SeZ3CT639S5IugxMpvo29n3uXHagc8lXsVttsYd5O3cA7nqYm6lGMnLY91rSviCqxlvPGh-qGLKnl/s1600/Screenshot.webp",
 
-embed:"<iframe title="vimeo-player" src="https://player.vimeo.com/video/867479650?h=38a74eb9cd" width="640" height="360" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"   allowfullscreen></iframe>",
+embed:"https://vimeo.com/867479650?fl=pl&fe=cm",
 
 description:"Smart home visualization .",
 
