@@ -2,21 +2,21 @@ const projects = [
 
 {
 id:1,
-title:"Villa Interior",
-category:"Architecture",
+title:"Edrak Tech",
+category:"Motion Graphic",
 
 thumbnail:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdwBb-Qgz0FzZDEd05dsdopgfG14oqYZgsQnGIAoIYtasXzt6uKaeIH37Gy0GjO0DMyxsaeAnvA-uET5Z0bKbgKmU5MvzpvyCkhQ9x-6IeHO0nzc9SeZ3CT639S5IugxMpvo29n3uXHagc8lXsVttsYd5O3cA7nqYm6lGMnLY91rSviCqxlvPGh-qGLKnl/s1600/Screenshot.webp",
 
-embed:"https://player.vimeo.com/video/895322105",
+embed:"<iframe title="vimeo-player" src="https://player.vimeo.com/video/867479650?h=38a74eb9cd" width="640" height="360" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"   allowfullscreen></iframe>",
 
-description:"Luxury interior visualization project.",
+description:"Smart home visualization .",
 
-year:"2026",
+year:"2023",
 
 tools:[
-"3ds Max",
-"V-Ray",
-"After Effects"
+"AfterEffects",
+"Premiere Pro",
+"Illustrator"
 ],
 
 link:"",
