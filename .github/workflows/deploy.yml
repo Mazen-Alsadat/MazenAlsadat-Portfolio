@@ -27,13 +27,12 @@ jobs:
         run: npm install
 
       - name: Build
-        run: npm run build
+        run: npx vite build --config vite.github.config.js
 
       - name: Upload
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
-
 
   deploy:
     needs: build
@@ -42,7 +41,13 @@ jobs:
 
     environment:
       name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    permissions:
+      pages: write
+      id-token: write
 
     steps:
       - name: Deploy
+        id: deployment
         uses: actions/deploy-pages@v4
