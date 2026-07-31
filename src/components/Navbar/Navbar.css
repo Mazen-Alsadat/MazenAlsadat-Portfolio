@@ -58,9 +58,10 @@ padding:0 25px;
 
 
 
+/* =================
+LOGO
+================= */
 
-
-/* LOGO */
 
 .logo{
 
@@ -84,15 +85,46 @@ height:100%;
 
 object-fit:contain;
 
+/* تحويل اللون إلى --accent #E7B44A */
+
+filter:
+brightness(0)
+saturate(100%)
+invert(76%)
+sepia(48%)
+saturate(950%)
+hue-rotate(358deg)
+brightness(95%)
+contrast(90%);
+
+transition:.3s;
+
+}
+
+
+
+.logo:hover img{
+
+filter:
+brightness(0)
+saturate(100%)
+invert(85%)
+sepia(45%)
+saturate(1300%)
+hue-rotate(358deg)
+brightness(105%)
+contrast(95%);
+
 }
 
 
 
 
 
+/* =================
+LINKS
+================= */
 
-
-/* LINKS */
 
 nav{
 
@@ -126,9 +158,10 @@ color:var(--accent);
 
 
 
+/* =================
+ACTIONS
+================= */
 
-
-/* ACTIONS */
 
 .nav-actions{
 
@@ -139,7 +172,6 @@ align-items:center;
 gap:15px;
 
 }
-
 
 
 
@@ -166,8 +198,6 @@ transition:.3s;
 background:rgba(255,255,255,.08);
 
 }
-
-
 
 
 
@@ -208,7 +238,10 @@ box-shadow:
 
 
 
-/* MOBILE BUTTON */
+/* =================
+MOBILE BUTTON
+================= */
+
 
 .menu-btn{
 
@@ -253,7 +286,6 @@ transition:.3s;
 
 
 
-
 /* =================
 MOBILE
 ================= */
@@ -282,8 +314,6 @@ width:70px;
 height:45px;
 
 }
-
-
 
 
 
@@ -356,7 +386,6 @@ transform:translateY(0);
 
 
 
-
 nav a{
 
 font-size:18px;
@@ -370,8 +399,6 @@ font-size:18px;
 
 
 
-/* اخفاء المشاريع فقط */
-
 .nav-actions .secondary-btn{
 
 display:none;
@@ -381,8 +408,6 @@ display:none;
 
 
 
-
-/* نخلي Let's Talk يظهر */
 
 .nav-actions .cta{
 
@@ -398,16 +423,11 @@ font-size:14px;
 
 
 
-
-
 .menu-btn{
 
 display:flex;
 
 }
-
-
-
 
 
 
