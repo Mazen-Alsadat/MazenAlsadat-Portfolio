@@ -49,10 +49,12 @@ className={`navbar ${scrolled ? "scrolled":""}`}
 
 
 
-<a href="/" className="logo">
+<a href={import.meta.env.BASE_URL} className="logo">
 
-<img src="/logo.png" alt="Mazen Logo"/>
-
+<img
+  src={`${import.meta.env.BASE_URL}logo.png`}
+  alt="Mazen Logo"
+/>
 </a>
 
 
