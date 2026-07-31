@@ -2,12 +2,12 @@ const projects = [
 
 {
 id:1,
-title:"Edrak Tech",
-category:"Motion Graphic",
+title:"Edrak-Tech",
+category:"Home Automation",
 
 thumbnail:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdwBb-Qgz0FzZDEd05dsdopgfG14oqYZgsQnGIAoIYtasXzt6uKaeIH37Gy0GjO0DMyxsaeAnvA-uET5Z0bKbgKmU5MvzpvyCkhQ9x-6IeHO0nzc9SeZ3CT639S5IugxMpvo29n3uXHagc8lXsVttsYd5O3cA7nqYm6lGMnLY91rSviCqxlvPGh-qGLKnl/s1600/Screenshot.webp",
 
-embed:"https://vimeo.com/867479650?fl=pl&fe=cm",
+embed:"https://player.vimeo.com/video/867479650",
 
 description:"Smart home visualization .",
 
